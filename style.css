@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  background-color: aquamarine;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  font-size: 3rem;
+  color: #333;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  gap: 10rem;
+  text-align: center;
+}
+.icon {
+  margin-bottom: 2rem;
+}
